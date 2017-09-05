@@ -25,9 +25,9 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 
 ## Installing
 
-1. Download and Install Docker
+1. Download and Install [Docker](https://www.docker.com/community-edition)
 
-1. Download and Install Git
+1. Download and Install [Git](https://git-scm.com/downloads)
 
 1. Clone this project
  
