@@ -70,7 +70,9 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
    
 1. Create an instance of the docker image:
    
-   Run `./run.sh` (in windows, `run.bat`)   
+   Run `./run.sh` (in windows, `run.bat`)  
+    
+1. Verify by accessing the admin console: (refer [here](#access-markLogic-admin-console))    
 
 ## Starting the Docker Instance
 
