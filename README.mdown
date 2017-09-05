@@ -72,7 +72,7 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
    
    Run `./run.sh` (in windows, `run.bat`)  
     
-1. Verify by accessing the admin console: (refer [here](#access-markLogic-admin-console))    
+1. Verify by accessing the admin console: (refer [here](#access-marklogic-admin-console))    
 
 ## Starting the Docker Instance
 
@@ -89,7 +89,7 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
    
 ## Create User for the Sample Application   
 
-1. Access MarkLogic Admin Console (refer [here](#access-markLogic-admin-console))
+1. Access MarkLogic Admin Console (refer [here](#access-marklogic-admin-console))
 1. On the left side menu, click "Security"
 1. Under "Security", click "Users"
 1. On the right side of the page, click the "Create" tab
