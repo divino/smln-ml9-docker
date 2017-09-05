@@ -39,7 +39,7 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
   
    Run `cd smln-ml9-docker`
    
-1. Download MarkLogic 9 for [Red Hat Enterprise Linux / CentOS, Version 7](https://developer.marklogic.com/products) 
+1. Download [MarkLogic 9](https://developer.marklogic.com/products) for Red Hat Enterprise Linux / CentOS, Version 7
 
 1. Copy the downloaded file to the project folder
 
@@ -119,5 +119,6 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 - [MarkLogic Product Documentation](https://docs.marklogic.com/)
 - [Slush Marklogic Node](https://github.com/marklogic-community/slush-marklogic-node)
 - [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
+- [Docker Commands](https://docs.docker.com/engine/reference/commandline/docker/)
 
 ## Congratulations
