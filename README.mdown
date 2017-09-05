@@ -6,9 +6,9 @@
  - [Installing](#installing)
  - [Starting the Docker Instance](#starting-the-docker-instance)
  - [Stopping the Docker Instance](#stopping-the-docker-instance)
- - [Access MarkLogic Admin Console](#access-markLogic-admin-console)
+ - [Access MarkLogic Admin Console](#access-marklogic-admin-console)
  - [Create User for the Sample Application](#create-user-for-the-sample-application)
- - [Access MarkLogic Query Console or QConsole](#access-markLogic-query-console-or-qconsole)
+ - [Access MarkLogic Query Console or QConsole](#access-marklogic-query-console-or-qconsole)
  - [Access the Sample Application](#access-the-sample-application)
  - [Recommended Reading Materials](#recommended-reading-materials)
 
