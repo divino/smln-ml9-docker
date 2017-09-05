@@ -19,8 +19,8 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 
 ## Requirements
 
-* [Docker](https://www.docker.com/community-edition)
 * [MarkLogic 9](https://developer.marklogic.com/products)
+* [Docker](https://www.docker.com/community-edition)
 * [Git](https://git-scm.com/downloads)
 
 ## Installing
