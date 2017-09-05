@@ -19,9 +19,9 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 
 ## Requirements
 
-* [Docker] (https://www.docker.com/community-edition)
-* [MarkLogic 9] (https://developer.marklogic.com/products)
-* [Git] (https://git-scm.com/downloads)
+* [Docker](https://www.docker.com/community-edition)
+* [MarkLogic 9](https://developer.marklogic.com/products)
+* [Git](https://git-scm.com/downloads)
 
 ## Installing
 
@@ -99,5 +99,10 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 1. Login with the sample application user you created earlier.
 
 ## Recommended Reading Materials
+
+- [Getting Started with MarkLogic Server-Side JavaScript](https://docs.marklogic.com/guide/getting-started/javascript)
+- [MarkLogic Product Documentation](https://docs.marklogic.com/)
+- [Slush Marklogic Node](https://github.com/marklogic-community/slush-marklogic-node)
+- [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 
 ## Congratulations
