@@ -1,6 +1,7 @@
-# Docker with MarkLogic 9 and Slush MarkLogic Node Generated Web Application
+# Docker with MarkLogic 9 and Slush MarkLogic Node Web Application
 
 ## Table of Contents
+
  - [Objective](#objective)
  - [Requirements](#requirements)
  - [Installing](#installing)
