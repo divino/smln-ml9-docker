@@ -26,8 +26,9 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 ## Installing
 
 1. Download and Install Docker
+
 1. Download and Install Git
-1. Download MarkLogic 9 for "Red Hat Enterprise Linux / CentOS, Version 7"
+
 1. Clone this project
  
    ```bash
@@ -38,6 +39,10 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
   
    Run `cd smln-ml9-docker`
    
+1. Download MarkLogic 9 for "Red Hat Enterprise Linux / CentOS, Version 7"
+
+1. Copy the downloaded file to the project folder
+
 1. For unix, linux and mac, make .sh files executable:
     
    Run `chmod +x *.sh` 
