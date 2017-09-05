@@ -3,6 +3,10 @@ FROM centos:centos7
 # Please download the MarkLogic in their official site
 # https://developer.marklogic.com/products
 
+# I borrowed a lot from the following links (Thanks to the author.):
+# https://github.com/corpbob/OpenShiftHowToGuides/blob/marklogic/marklogic/Dockerfile
+# https://github.com/corpbob/s2i-slush-ml/blob/master/Dockerfile
+
 ENV WORKING_DIR /var/opt/MarkLogic
 
 ARG ML_RPM_FILE
