@@ -33,6 +33,14 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
    ```bash
    git clone https://github.com/divino/smln-ml9-docker.git 
    ```  
+
+1. Go to project folder
+  
+   Run `cd smln-ml9-docker`
+   
+1. For unix, linux and mac, make .sh files executable:
+    
+   Run `chmod +x *.sh` 
  
 1. Edit `build.sh` (in windows, `build.bat`)
    
