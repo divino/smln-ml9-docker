@@ -1,0 +1,73 @@
+# Docker with MarkLogic 9 and Slush MarkLogic Node Generated Web Application
+
+## Table of Contents
+ - [Objective](#objective)
+ - [Requirements](#requirements)
+ - [Installing](#installing)
+ - [Starting](#starting)
+ - [Stopping](#stopping)
+ - [Access MarkLogic Admin Console]
+ - [Create User for the Sample Application]
+ - [Access MarkLogic Query Console or QConsole]
+ - [Access the Sample Application]
+ - [Recommended Reading Materials](#recommended)
+
+## Objective
+
+To make it easy for new developers to try and test MarkLogic 9 and the Slush MarkLogic Node.
+
+## Requirements
+
+* [Docker] (https://www.docker.com/community-edition)
+* [MarkLogic 9] (https://developer.marklogic.com/products)
+
+## Installing
+
+1. Download and Install Docker
+1. Download and Install Git
+1. Download MarkLogic 9 for "Red Hat Enterprise Linux / CentOS, Version 7"
+1. Clone this project from 
+1. Edit `build.sh` (in windows, `build.bat`)
+   
+   Change the value of `ML_RPM_FILE` to the MarkLogic 9 Installer for "Red Hat Enterprise Linux / CentOS, Version 7"
+   ```bash
+   docker build --build-arg ML_VERSION=9 --build-arg ML_RPM_FILE=<MarkLogic-Installer-Filename> --build-arg ML_ADMIN_USER=admin --build-arg ML_ADMIN_PASSWORD=admin --rm=true -t marklogic9 . 
+
+   ```
+
+   Example:
+   ```bash
+   docker build --build-arg ML_VERSION=9 --build-arg ML_RPM_FILE=MarkLogic-9.0-1.1.x86_64.rpm --build-arg ML_ADMIN_USER=admin --build-arg ML_ADMIN_PASSWORD=admin --rm=true -t marklogic9 . 
+
+   ```
+   
+   Note:
+   It expects the file to be in the same directory as the Dockerfile. It will not work if you pass the complete path.
+
+1. Create the docker image:
+
+   Run `./build.sh` (in windows, `build.bat`)   
+   
+1. Create an instance of the docker image:
+   
+   Run `./run.sh` (in windows, `run.bat`)
+
+### Starting the Docker Instance
+
+   Run `./start.sh` (in windows, `start.bat`)
+
+### Stopping the Docker Instance
+
+   Run `./stop.sh` (in windows, `stop.bat`)
+   
+### Access MarkLogic Admin Console
+   
+### Create User for the Sample Application   
+
+### Access MarkLogic Query Console or QConsole   
+
+### Access the Sample Application
+
+### Recommended Reading Materials
+
+### Congratulations
