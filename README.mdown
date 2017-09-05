@@ -93,7 +93,7 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 
 ## Access the Sample Application
 
-1. Create User for the Sample Application (refer to instruction with the same name)
+1. Create User for the Sample Application (refer [here](#create-user-for-the-sample-application))
 1. Open http://localhost:8050 in a browser
 1. Login with the sample application user you created earlier.
 
