@@ -4,13 +4,13 @@
  - [Objective](#objective)
  - [Requirements](#requirements)
  - [Installing](#installing)
- - [Starting](#starting)
- - [Stopping](#stopping)
- - [Access MarkLogic Admin Console] ()
- - [Create User for the Sample Application]
- - [Access MarkLogic Query Console or QConsole]
- - [Access the Sample Application]
- - [Recommended Reading Materials](#recommended)
+ - [Starting the Docker Instance](#starting-the-docker-instance)
+ - [Stopping the Docker Instance](#stopping-the-docker-instance)
+ - [Access MarkLogic Admin Console] (#access-markLogic-admin-console)
+ - [Create User for the Sample Application] (#create-user-for-the-sample-application)
+ - [Access MarkLogic Query Console or QConsole] (#access-markLogic-query-console-or-qconsole)
+ - [Access the Sample Application] (#access-the-sample-application)
+ - [Recommended Reading Materials](#recommended-reading-materials)
 
 ## Objective
 
