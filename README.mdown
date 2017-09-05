@@ -6,10 +6,10 @@
  - [Installing](#installing)
  - [Starting the Docker Instance](#starting-the-docker-instance)
  - [Stopping the Docker Instance](#stopping-the-docker-instance)
- - [Access MarkLogic Admin Console] (#access-markLogic-admin-console)
- - [Create User for the Sample Application] (#create-user-for-the-sample-application)
- - [Access MarkLogic Query Console or QConsole] (#access-markLogic-query-console-or-qconsole)
- - [Access the Sample Application] (#access-the-sample-application)
+ - [Access MarkLogic Admin Console](#access-markLogic-admin-console)
+ - [Create User for the Sample Application](#create-user-for-the-sample-application)
+ - [Access MarkLogic Query Console or QConsole](#access-markLogic-query-console-or-qconsole)
+ - [Access the Sample Application](#access-the-sample-application)
  - [Recommended Reading Materials](#recommended-reading-materials)
 
 ## Objective
@@ -58,22 +58,22 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
    
    Run `./run.sh` (in windows, `run.bat`)   
 
-### Starting the Docker Instance
+## Starting the Docker Instance
 
    Run `./start.sh` (in windows, `start.bat`)
 
-### Stopping the Docker Instance
+## Stopping the Docker Instance
 
    Run `./stop.sh` (in windows, `stop.bat`)
    
-### Access MarkLogic Admin Console
+## Access MarkLogic Admin Console
    
 1. Open http://localhost:8001 in a browser
 1. Login with username: admin and password: admin
    
-### Create User for the Sample Application   
+## Create User for the Sample Application   
 
-1. Access MarkLogic Admin Console (refer to instruction with the same name)
+1. Access MarkLogic Admin Console (refer [here](#access-markLogic-admin-console))
 1. On the left side menu, click "Security"
 1. Under "Security", click "Users"
 1. On the right side of the page, click the "Create" tab
@@ -86,17 +86,17 @@ To make it easy for new developers to try and test MarkLogic 9 and the Slush Mar
 1. Scroll down into the page and look for the role "slush-default-role" and tick the checkbox on it's left.   
 1. Scroll to the top of the page and click the "ok" button.
 
-### Access MarkLogic Query Console or QConsole   
+## Access MarkLogic Query Console or QConsole   
 
 1. Open http://localhost:8001 in a browser
 1. Login with username: admin and password: admin
 
-### Access the Sample Application
+## Access the Sample Application
 
 1. Create User for the Sample Application (refer to instruction with the same name)
 1. Open http://localhost:8050 in a browser
 1. Login with the sample application user you created earlier.
 
-### Recommended Reading Materials
+## Recommended Reading Materials
 
-### Congratulations
+## Congratulations
